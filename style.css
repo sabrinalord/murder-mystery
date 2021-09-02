@@ -24,12 +24,6 @@ h2 {
     line-height: 1.6;
 }
 
-.global-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 
 /* LETTER INVITATION */
 
@@ -63,7 +57,7 @@ a:hover {
 	font-family: cursive;
     color: black;
 	font-size:1.1em;
-	min-height:800px;
+	min-height:900px;
 }
 
 .letter-content {
@@ -485,6 +479,7 @@ section.container>form.flip>.front {
 .section-title {
 	font-family: 'Creepster', cursive;
 	font-size:5em;
+	    text-align: center;
 }
 
 
@@ -500,7 +495,7 @@ section.container>form.flip>.front {
 }
 
 .character-photo-container{
-	width:200px;
+	width:30%;
 	background-size: contain;
     background-repeat: no-repeat;
 	
@@ -529,9 +524,12 @@ background-image:url('images/neutral-avatar-01.png');
 /*------------------- MEDIA QUERIES FOR DESKTOP-----------------*/
 
 
-@media (min-width: 768px) {
-	display: flex;
+@media (min-width:768px){
+	
+	.characters-wrapper{
+		    display: flex;
     flex-wrap: wrap;
-	
-	
+}
+	}
+
 }
