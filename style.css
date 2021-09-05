@@ -9,6 +9,8 @@ body {
 	color:white;
 	position:relative;
     margin: 2em;
+	font-family: monospace;
+	    font-size: 1.2em;
 
 }
 
@@ -473,12 +475,10 @@ section.container>form.flip>.front {
 
 /*--------- CHARACTER SECTION -----------*/
 
-.character-section{
-	margin-top:5em;
-}
+
 .section-title {
 	font-family: 'Creepster', cursive;
-	font-size:5em;
+	font-size:4em;
 	    text-align: center;
 }
 
@@ -492,8 +492,9 @@ section.container>form.flip>.front {
 .character-card {
     background: #595a5a;
     min-width: 300px;
-	height:130px;
     max-width: 400px;
+	    height: fit-content;
+    min-height: 150px;
     padding: 0.5em;
     display: flex;
 	margin: 0.5em;
@@ -501,7 +502,8 @@ section.container>form.flip>.front {
 }
 
 .character-photo-container{
-	width:130px;
+	width: 130px;
+    min-width: 100px;
 	background-size: contain;
     background-repeat: no-repeat;
 	
@@ -520,21 +522,38 @@ background-image:url(images/man-avatar-01.png);
 background-image:url('images/neutral-avatar-01.png');
 }
 
+.character-description {
+	font-size:1em;
+}
+
 .character-info-box{
-	margin:0.5em;
+	margin:1em;
+}
+
+.character-title{
+	    margin-top: 0;
 }
 
 /*------------ HOW TO PLAY SECTION -------*/
 
-.how-to-play{
+.section-content{
 	margin: 0em 2em;
-    font-family: fantasy;
     letter-spacing: 0.1em;
-    font-size: 1.2em;
     background: #000000ad;
     padding: 1em;
+	max-width:800px;
 }
 
+li {
+	    margin-bottom: 1em;
+}
+
+/*-------- DIRECTIONS SECTION ------------*/
+
+
+.directions-wrapper{
+	text-align: center;
+}
 
 /*------------------- MEDIA QUERIES FOR DESKTOP-----------------*/
 
@@ -542,7 +561,9 @@ background-image:url('images/neutral-avatar-01.png');
 @media (min-width:768px){
 	
 section.container{
-		width:30%;
+		width:40%;
+	height: 350px;
+	max-width:max-width:650px;
 	}
 	
 	
@@ -552,6 +573,16 @@ section.container{
 	    background-size: cover;
 
 }
+	
+	.section-title {
+	font-size:5em;
+}
+	
+	.character-card{
+		max-width:600px;
+		width:600px;
+	}
+
 
 
 
