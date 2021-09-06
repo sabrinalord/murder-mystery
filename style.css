@@ -70,7 +70,6 @@ float:right;
 .letter{
     font-family: cursive;
     color: black;
-    font-size: 1.1em;
     min-height: 500px;
     width: 100%;
     display: flex;
