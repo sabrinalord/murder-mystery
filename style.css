@@ -348,7 +348,7 @@ section.container>form.flip>.front {
     background-image: url(images/letter.jpg);
 	background-size:cover;
     background: -moz-linear-gradient(top, #fafafa 80%, #f7f7f7 100%);
-    padding: 3em 1.5em;
+    padding: 3em 2em;
 		opacity: 0.98;
     line-height: 1.2;
     /*box-shadow: 5px -5px 8px -4px rgba(0, 0, 0, 0.15);*/
