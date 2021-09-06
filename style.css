@@ -65,6 +65,8 @@ a:hover {
 #close {
    
 float:right;
+	bottom: 30px;
+	position:relative;
 }
 
 .letter{
