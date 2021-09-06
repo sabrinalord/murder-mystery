@@ -63,9 +63,8 @@ a:hover {
 
 
 #close {
-    position: absolute;
-    bottom: 150px;
-    right: 10px;
+   
+float:right;
 }
 
 .letter{
@@ -79,7 +78,10 @@ a:hover {
 }
 
 .letter-content {
-margin: 2em;}
+    margin: 2em;
+    right: 0px;
+    position: absolute;
+}
 /*****************************/
 
 section.container {
