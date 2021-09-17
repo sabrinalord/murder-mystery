@@ -502,6 +502,7 @@ section.container>form.flip>.front {
     display: flex;
 	margin: 0.5em;
 	border-radius: 20px;
+	position:relative;
 }
 
 .character-photo-container{
@@ -535,6 +536,14 @@ background-image:url('images/neutral-avatar-01.png');
 
 .character-title{
 	    margin-top: 0;
+}
+
+
+.picked {
+	position:absolute;
+	right:0;
+	bottom:0;
+	margin:1em 2em;
 }
 
 /*------------ HOW TO PLAY SECTION -------*/
